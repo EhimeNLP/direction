@@ -1,5 +1,5 @@
 # direction
-##### multimodal <ins>**di**</ins>alogue with a dog-robot <ins>**re**</ins>sponding in a<ins>**ction**</ins><br>
+##### dataset for multimodal <ins>**di**</ins>alogue with a dog-robot <ins>**re**</ins>sponding in a<ins>**ction**</ins><br>
 犬型ロボットとの対話を考慮した対話データセットを構築した。<br>
 クラウドソーシングサービスの [lancers](https://www.lancers.jp/) にて、人間の発話文と犬型ロボットの応答文・犬型ロボットの動作の3つ組コーパスを収集した。<br>
 犬型ロボットは [unitree go2](https://www.unitree.com/go2) を想定している。<br>

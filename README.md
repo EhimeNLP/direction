@@ -11,10 +11,9 @@
 
 
 ## データ説明
-`train/valid/test \t ユーザコード \t 発話文 \t 応答文 \t 動作`<br>
-の形式で記述されている。<br>
+`train/valid/test \t ユーザコード \t 発話文 \t 応答文 \t 動作` の形式で記述されている。<br>
 - ユーザコード：データ構築に協力してもらった方に番号を振っており、0~60まで存在する。（0：800件、その他：120件）<br>
-- 動作：11種類の動作から8種類を設定した。<br>（「1. stretch」、「2. shake hands」、「3. jump forward」、「4. cheer」、「5. punch」、「6. sit down」、「7. standing up」、「8. dance」）<br>
+- 動作： [unitree go2](https://www.unitree.com/go2) の11種類の動作から8種類を設定した。<br>（「1. stretch」、「2. shake hands」、「3. jump forward」、「4. cheer」、「5. punch」、「6. sit down」、「7. standing up」、「8. dance」）<br>
 - 各動作が均等に分かれるように割り振られている。（train：750件ずつ、valid, test：125件）<br>
 
 ```
